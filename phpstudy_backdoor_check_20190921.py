@@ -24,15 +24,6 @@ def check_file(filename):
                     ckres = True
                     break
                 n += 1
-    # 如需要检测 所有文件     
-    # lines=strings(filename)
-    # try:
-    #     grep(lines,trojan).next()
-    # except:
-    #     return
-    # print('backdoor file =>> {0}'.format(filename))
-    # for line in grep(lines,backdoor):
-    #     print(line)
     return ckres, n
 
 
